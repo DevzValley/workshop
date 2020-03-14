@@ -248,3 +248,33 @@ h4, h5, h6{
           box-shadow: inset 0 1px 1px rgba(31, 45, 61, 0.075), 0 0 20px rgba(110, 0, 255, 0.1);
 }
 /* Contact End */
+
+/*Footer Start*/
+#footer{
+    background: #232323;
+    padding: 30px 0;
+    color: #999;
+}
+.socialMedia{
+    display: flex;
+}
+.socialMedia ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+}
+.socialMedia ul li a{
+    display: inline-block;
+    margin: 0 7.5px;
+    color: #999;
+    font-size: 20px;
+}
+.socialMedia ul li a:hover{
+    color: #fff;
+}
+.copyright{
+    margin: 0;
+}
+/* Foter End */
